@@ -1,0 +1,36 @@
+.p-orderlist .p-orderlist-controls {
+  display: none;
+}
+
+.p-orderlist .p-orderlist-list {
+  padding: 0;
+}
+
+.p-orderlist-item {
+  cursor: unset;
+}
+
+.p-orderlist-list {
+  min-height: auto;
+  max-height: max-content;
+}
+
+.p-orderlist .p-orderlist-list .p-orderlist-item.p-highlight {
+  background: transparent;
+}
+
+.p-orderlist .p-orderlist-list .p-orderlist-item:not(.p-highlight):hover {
+  background: transparent;
+}
+
+.p-orderlist .p-orderlist-list .p-orderlist-item:focus {
+  box-shadow: none;
+}
+
+.p-orderlist .p-orderlist-list .p-orderlist-item {
+  padding: 0;
+}
+
+.p-checkbox .p-checkbox-box {
+  box-shadow: inset 0 0 0 0 !important;
+}

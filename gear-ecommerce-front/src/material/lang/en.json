@@ -1,0 +1,24 @@
+{
+  "header": {
+    "contact": "Available 24/7 at",
+    "search": "Search the store",
+    "wish-lists": "Wist Lists",
+    "gift-cards": "Gift Cards",
+    "sign-in": "Sign In",
+    "logout": "Đăng xuất"
+  },
+  "side-header": {
+    "categories": "Categories",
+    "help": "Help",
+    "en-vn": "EN-VN"
+  },
+  "product-collection-page": {
+    "product-filter": {
+      "headline": "Filter"
+    },
+    "product-sort": {
+      "headline": "Sort by"
+    }
+  }
+}
+

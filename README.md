@@ -1,2 +1,2 @@
-# laptop-ecommerce
-Laptop ecommer website using Java and React
+# it-job-board
+ It Job Board Web Application using Java Spring Boot and ReactJs

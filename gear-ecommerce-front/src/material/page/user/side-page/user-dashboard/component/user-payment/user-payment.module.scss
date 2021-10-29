@@ -1,0 +1,16 @@
+.productName {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.table {
+  font-size: 14px;
+  tr {
+    transition: 0.3s;
+    &:hover {
+      background: var(--bluebreak-100);
+    }
+  }
+}

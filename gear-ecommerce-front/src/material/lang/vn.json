@@ -1,0 +1,190 @@
+{
+  "header": {
+    "search": "Nhập từ khóa cần tìm",
+    "notification": "Thông báo",
+    "discount": "Khuyến mãi",
+    "order": "Đơn hàng",
+    "cart": "Giỏ hàng",
+    "sign-in": "Đăng Nhập",
+    "logout": "Đăng xuất",
+    "user-block": {
+      "account-info": "Thông tin tài khoản",
+      "mail": "Bảng tin"
+    }
+  },
+  "side-nav": {
+    "categories": "Danh mục sản phẩm",
+    "help": "Trợ giúp",
+    "en-vn": "EN-VN"
+  },
+  "notification": {
+    "un-sign-in-add-to-cart": "Hãy đăng nhập để bỏ sản phẩm này vào giỏ hàng nhé",
+    "attention": "Chú ý",
+    "denied": "Hủy bỏ",
+    "accept": "Đồng ý"
+  },
+  "product-collection-page": {
+    "product-filter": {
+      "headline": "Bộ lọc",
+      "remove-all": "Xóa bộ lọc"
+    },
+    "product-sort": {
+      "headline": "Sắp xếp theo",
+      "sort-list": {
+        "best-discount": "Khuyến mãi tốt nhất",
+        "best-seller": "Bán chạy",
+        "newest": "Mới về",
+        "price-high-to-low": "Giá giảm dần",
+        "price-low-to-high": "Giá tăng dần"
+      }
+    }
+  },
+  "product-detail-page": {
+    "product-intro": {
+      "purchased": "Đã bán",
+      "buy-now-btn": "MUA NGAY",
+      "add-to-cart-btn": "THÊM VÀO GIỎ HÀNG"
+    },
+    "product-content": "Mô tả sản phẩm",
+    "product-info": {
+      "headline": "Thông số kỹ thuật"
+    },
+    "product-sales-policy": {
+      "headline": "Chính sách bán hàng",
+      "other-service": "Dịch vụ khác",
+      "detail": "Xem chi tiết",
+      "policy-list": {
+        "is-free-ship": "Sản phẩm được miễn phí giao hàng",
+        "guaranteed-genuine": "Cam kết hàng chính hãng 100%",
+        "refund": "Đổi trả trong vòng 10 ngày",
+        "free-ship-condition": "Miễn phí giao hàng cho đơn hàng từ 800K",
+        "repair": "Sửa chữa đồng giá 150.000đ.",
+        "cleaning": "Vệ sinh máy tính, laptop.",
+        "warranty": "Bảo hành tại nhà."
+      }
+    }
+  },
+  "user-cart-page": {
+    "headline": "GIỎ HÀNG",
+    "remove-product-notification": "Bạn muốn xoá sản phẩm này ra khỏi giỏ hàng?",
+    "remove-label": "Xoá",
+    "cart-empty": "Không có sản phẩm nào trong giỏ hàng của bạn.",
+    "continue-shopping": "Tiếp tục mua sắm",
+    "product-discount": {
+      "headline": "Closure Gear Khuyến Mãi",
+      "label": "Nhập mã của bạn",
+      "button": "Áp dụng ngay"
+    },
+    "product-payment": {
+      "temporary": "Tạm tính",
+      "discount": "Giảm giá",
+      "total": "Tổng cộng",
+      "vat-include": "(Đã bao gồm VAT nếu có)",
+      "continue-payment": "TIẾP TỤC THANH TOÁN"
+    }
+  },
+  "login-page": {
+    "headline": "Chào mừng bạn đến với Closure Gear!",
+    "fb-login": "Tiếp tục với Facebook",
+    "google-login": "Tiếp tục với Google"
+  },
+  "payment-page": {
+    "address": {
+      "headline": "Thông tin nhận hàng",
+      "edit": "Thêm/Sửa địa chỉ",
+      "no-address": "Vui lòng thêm địa chỉ nhận hàng"
+    },
+    "order-btn": "Đặt mua",
+    "shipping-type": "Phương thức giao hàng",
+    "payment-type": "Phương thức thanh toán",
+    "order": {
+      "headline": "Thông tin đơn hàng",
+      "edit": "Chỉnh sửa",
+      "amount": "Số lượng",
+      "cart-empty": "Giỏ hàng không có sản phẩm. Vui lòng thực hiện lại.",
+      "price": {
+        "temporary": "Tạm tính",
+        "shipping": "Phí vận chuyển",
+        "discount": "Giẩm giá",
+        "total": "Thành tiền",
+        "vat-include": "(Đã bao gồm VAT)"
+      }
+    }
+  },
+  "user-dashboard-page": {
+    "side-bar": {
+      "account-of": "Tài khoản của",
+      "info": "Thông tin tài khoản",
+      "order": "Quản lý đơn hàng",
+      "address": "Địa chỉ",
+      "notification": "Thông báo"
+    },
+    "user-order": {
+      "headline": "Đơn hàng của tôi",
+      "table": {
+        "payment-id": "Mã đơn hàng",
+        "payment-date": "Ngày mua",
+        "products": "Sản phẩm",
+        "total-price": "Tổng tiền",
+        "status": "Trạng thái đơn hàng"
+      }
+    },
+    "user-order-detail": {
+      "headline": "Chi tiết đơn hàng",
+      "shipping-address": {
+        "intro": "ĐỊA CHỈ NHẬN HÀNG",
+        "address": "Địa chỉ",
+        "phone": "Điện thoại"
+      },
+      "created-date": "Ngày đặt hàng",
+      "payment-type": "HÌNH THỨC THANH TOÁN",
+      "shipping-status": "TRẠNG THÁI GIAO HÀNG",
+      "temporary-price": "Tạm tính",
+      "shipping-price": "Phí vận chuyển",
+      "discount-price": "Giảm giá",
+      "total-price": "Tổng cộng",
+      "product": {
+        "name": "Sản phẩm",
+        "price": "Giá",
+        "amount": "Số lượng",
+        "discount": "Giảm giá",
+        "total-price": "Tạm tính"
+      }
+    },
+    "account-info": {
+      "headline": "Thông tin tài khoản",
+      "accept": "Cập nhật thông tin",
+      "label": {
+        "name": "Họ tên",
+        "phone": "Số điện thoại",
+        "birthday": "Ngày sinh",
+        "email": "Email",
+        "gender": "Giới tính"
+      }
+    },
+    "user-address": {
+      "headline": "Thông tin người nhận hàng",
+      "address-shipment": "Địa chỉ nhận hàng",
+      "accept": "Cập nhật địa chỉ",
+      "label": {
+        "name": "Họ tên",
+        "phone": "Số điện thoại",
+        "email": "Email",
+        "province": "Tỉnh/Thành phố",
+        "district": "Quận/Huyện",
+        "ward": "Phường/Xã",
+        "street": "Địa chỉ cụ thể"
+      },
+      "placeholder": {
+        "name": "Nhập tên của bạn",
+        "phone": "Nhập số điện thoại",
+        "email": "Nhập email của bạn",
+        "province": "Chọn tỉnh/thành phố",
+        "district": "Chọn quận/Huyện",
+        "ward": "Chọn phường/Xã",
+        "street": "Số nhà, ngõ, tên đường"
+      }
+    }
+  }
+}
+

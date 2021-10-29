@@ -1,0 +1,97 @@
+@import "src/theme";
+.p-megamenu {
+  background: white;
+  border-radius: unset;
+  font-size: 14px !important;
+  .p-menuitem-link {
+    padding: 0.3rem !important;
+    border-radius: unset !important;
+  }
+}
+.p-megamenu-vertical .p-megamenu-root-list {
+  position: relative !important;
+}
+.p-megamenu-root-list>.p-menuitem {
+  position: unset !important;
+}
+
+.p-megamenu.p-megamenu-vertical {
+  width: 16rem;
+  padding: 0;
+  z-index: 1000 !important;
+}
+
+.p-menuitem-icon {
+  width: 24px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.p-submenu-icon {
+  display: none;
+}
+
+.p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover {
+  background: var(--bluebreak-600);
+  span {
+    color: white !important;
+  }
+}
+
+.p-megamenu .p-menuitem-link:not(.p-disabled):hover {
+  background: white !important;
+  span {
+    color: var(--bluebreak-600) !important;
+  }
+}
+
+.p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover {
+  background: var(--bluebreak-600) !important;
+  span {
+    color: white !important;
+  }
+}
+
+.p-megamenu-submenu-header {
+  cursor: pointer;
+  &:hover {
+    color: var(--bluebreak-700);
+  }
+}
+
+.p-megamenu .p-megamenu-submenu-header {
+  cursor: pointer;
+  &:hover {
+    color: var(--bluebreak-700);
+  }
+  padding: 0.3rem;
+}
+
+.p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link {
+  padding: 0.5rem 1rem !important;
+  padding-left: 0.4rem !important;
+}
+
+.p-megamenu .p-menuitem-link:not(.p-disabled):hover {
+  background: var(--bluebreak-600);
+}
+
+.p-megamenu-col-2, .p-megamenu-col-3, .p-megamenu-col-4, .p-megamenu-col-6, .p-megamenu-col-12 {
+  padding: 0;
+}
+
+.p-megamenu .p-megamenu-submenu {
+  min-width: 16rem;
+  padding: 0.5rem;
+}
+
+.p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link:focus {
+  box-shadow: none !important;
+}
+
+.p-megamenu .p-megamenu-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link, .p-megamenu .p-megamenu-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link:not(.p-disabled):hover {
+  background: var(--bluebreak-600);
+  span {
+    color: white !important;
+  }
+}

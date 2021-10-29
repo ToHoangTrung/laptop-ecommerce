@@ -1,0 +1,9 @@
+@import "src/theme";
+
+.p-menu {
+  padding: 0;
+  border: none;
+}
+.p-menu .p-menuitem-link:not(.p-disabled):hover {
+  background: transparent;
+}

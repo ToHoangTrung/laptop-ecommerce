@@ -1,0 +1,19 @@
+
+.adminSidebar {
+  position: fixed;
+  left: 0;
+  height: 100%;
+  width: 300px;
+  background: var(--bluebreak-600);
+  .headline {
+    color: white;
+    font-size: 24px;
+  }
+  .item {
+    a {
+      box-shadow: none !important;
+      background: var(--bluebreak-600);
+      color: white;
+    }
+  }
+}

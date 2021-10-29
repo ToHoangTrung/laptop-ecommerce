@@ -1,0 +1,30 @@
+.p-galleria-item-container {
+  padding: 0 !important;
+  margin-bottom: -3rem;
+}
+.p-galleria .p-galleria-indicators {
+  position: relative;
+  .p-galleria-indicator button {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+}
+.p-galleria-item-nav {
+  margin-top: 0;
+  top: 40%;
+}
+.p-carousel {
+  .p-carousel-indicators {
+    display: none;
+  }
+  .p-carousel-container {
+    position: relative;
+    .p-carousel-prev, .p-carousel-next {
+      position: absolute;
+      z-index: 100;
+    }
+    .p-carousel-next {
+      right: 0;
+    }
+  }
+}

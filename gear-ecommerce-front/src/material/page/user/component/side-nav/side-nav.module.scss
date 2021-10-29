@@ -1,0 +1,24 @@
+.sideNav {
+  background: var(--bluebreak-600);
+  color: white;
+  margin-top: -0.5rem;
+  .category {
+    cursor: pointer;
+    transition: .3s;
+    position: relative;
+    margin-top: -0.5rem !important;
+    margin-bottom: -0.5rem !important;
+    padding-left: 0 !important;
+    &:hover {
+      .megaMenu {
+        display: block;
+      }
+    }
+    .megaMenu {
+      position: absolute;
+      display: none;
+      top: 100%;
+      left: 0;
+    }
+  }
+}

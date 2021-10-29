@@ -1,0 +1,16 @@
+@import "src/theme";
+
+.userDashBoardSideBar {
+  svg {
+    width: 50px;
+    color: var(--surface-600);
+  }
+  .link {
+    &:hover {
+      background: #EBEBF0;
+    }
+  }
+  .selected {
+    background: #EBEBF0;
+  }
+}

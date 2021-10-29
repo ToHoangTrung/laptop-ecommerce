@@ -1,0 +1,25 @@
+@import "src/theme";
+
+.p-galleria-item-container {
+  padding: $spacing * 3;
+}
+
+.p-galleria .p-galleria-thumbnail-container {
+  background: white;
+  padding: 0;
+}
+
+.p-galleria-thumbnail-next, .p-galleria-thumbnail-prev {
+  display: none;
+}
+
+.p-galleria .p-galleria-thumbnail-container .p-galleria-thumbnail-item-content {
+  padding: $spacing / 2;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.p-galleria-thumbnail-item-current {
+  border: 1px solid $DayBreakBlueTheme7;
+  border-radius: 5px;
+}

@@ -1,0 +1,35 @@
+@import "src/theme";
+.productDetail {
+  .salePolicyItem {
+    font-size: 14px;
+    pointer-events: none;
+    padding: 0 !important;
+    padding-bottom: 0.5rem !important;
+    svg {
+      color: var(--bluebreak-600);
+      margin-right: 0.5rem;
+    }
+  }
+  .salePolicyDetail {
+    font-size: 14px;
+    pointer-events: none;
+    padding: 0 !important;
+    svg {
+      visibility: hidden;
+      margin-right: 0.5rem;
+    }
+    span {
+      pointer-events: auto;
+      color: var(--bluebreak-700);
+      text-decoration: underline;
+      &:hover {
+        color: var(--bluebreak-700);
+      }
+    }
+  }
+  .productDescription {
+    font-weight: 300;
+    color: var(--neutralgray-800);
+  }
+}
+

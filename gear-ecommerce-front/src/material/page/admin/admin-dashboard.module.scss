@@ -1,0 +1,29 @@
+.table {
+  border: 1px solid var(--neutralgray-400) !important;
+  span {
+    font-size: 14px !important;
+  }
+  font-size: 14px !important;
+  tr {
+    &:hover {
+      background: var(--bluebreak-100) !important;
+    }
+    td {
+      padding: 0.5rem 1rem !important
+    }
+  }
+}
+.productLink {
+  color: black;
+  &:hover {
+    color: var(--bluebreak-800);
+    text-decoration: underline;
+  }
+}
+.productName {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

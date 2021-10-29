@@ -1,0 +1,51 @@
+@import "src/theme";
+
+.header {
+  margin-top: 0 !important;
+  background: white;
+  a {
+    color: $NeutralGrayTheme7;
+    font-size: 14px;
+    svg, i {
+      color: $NeutralGrayTheme7;
+      font-size: 24px;
+      margin: 0 auto;
+    }
+    p {
+      flex-grow: 1;
+    }
+    &:hover {
+      svg, i {
+        color: $DayBreakBlueTheme7;
+      }
+      p {
+        color: $DayBreakBlueTheme7;
+      }
+    }
+  }
+  .headline {
+    color: $DayBreakBlueTheme7;
+    font-size: 24px;
+  }
+  .form {
+    width: 500px;
+    input {
+      background: $NeutralGrayTheme3;
+      font-size: 14px;
+    }
+    button {
+      background: $DayBreakBlueTheme6;
+      &:hover {
+        background: $DayBreakBlueTheme7;
+      }
+    }
+  }
+  .logout {
+    flex-grow: 1;
+    background: $DuskRedTheme6;
+    border: none;
+    &:hover {
+      background: $DuskRedTheme7 !important;
+    }
+  }
+}
