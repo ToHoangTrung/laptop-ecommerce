@@ -1,11 +1,7 @@
 import React, {Component} from 'react';
-import {
-    Route,
-    Redirect
-} from "react-router-dom";
+import {Redirect, Route} from "react-router-dom";
 import {UserRouter} from "../../../router";
 import {useSelector} from "react-redux";
-import {RootState} from "../../../store";
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
 
